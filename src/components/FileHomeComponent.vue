@@ -1,6 +1,6 @@
 <template>
   <div
-   class="w-[250px] h-[150px] rounded-lg bg-amber-300 shadow-lg flex flex-col items-center justify-around p-3"
+   class="w-[250px] h-[150px] rounded-lg bg-amber-300 shadow-lg flex flex-col hover:bg-amber-400 items-center justify-around p-3"
   >
  <img :src="imageSrc" class="w-20" alt="" />
    <span class="text-2xl font-semibold text-[#5909B5]">{{ label }}</span>
