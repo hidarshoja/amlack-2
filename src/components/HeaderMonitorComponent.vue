@@ -18,13 +18,13 @@
               class="absolute bg-red-400 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-5px] left-6"
               >3</span
             >
-            <a href="/expertMonitor/NotificationMonitor">
+            <router-link to="/expertMonitor/NotificationMonitor">
               <img
                 src="/icons/alert.png"
                 class="w-[30px] cursor-pointer"
                 alt=""
               />
-            </a>
+            </router-link>
           </div>
          
           <div class="relative">
@@ -44,14 +44,14 @@
             >
               <ul>
                 <li>
-                  <a href="/expertMonitor/ProfileMonitor" class="profileBtn">حساب کاربری</a>
+                  <router-link to="/expertMonitor/ProfileMonitor" class="profileBtn">حساب کاربری</router-link>
                 </li>
                 <li>
-                  <a class="profileBtn" href="/expertMonitor/ProfileMonitor">تغییر رمز عبور</a>
+                  <router-link class="profileBtn" to="/expertMonitor/ProfileMonitor">تغییر رمز عبور</router-link>
                 </li>
                
                 <li>
-                  <a class="profileBtn">خروج</a>
+                  <router-link to="#" class="profileBtn">خروج</router-link>
                 </li>
               </ul>
             </div>

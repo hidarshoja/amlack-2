@@ -77,7 +77,7 @@
       <span class="py-2 text-xs block">
         <span class="text-red-500"> هنوز ثبت نام نکرده اید ؟ </span>
         <span class="text-green-500">
-          <a href="/expert/registerExpert"> ثبت نام </a>
+          <router-link to="/expert/registerExpert"> ثبت نام </router-link>
         </span>
       </span>
     </div>

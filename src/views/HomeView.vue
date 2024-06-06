@@ -9,7 +9,7 @@
         class="w-full mt-8 h-24 bg-gold1 rounded-lg border-r-[10px] border-green-700 flex items-center justify-between px-3   hover:bg-gold2"
       >
         <div class="flex gap-3 items-center">
-          <a href="/AccountView" class="flex gap-3">
+          <router-link to="/AccountView" class="flex gap-3">
 
             <div class="w-14 h-14 rounded-full flex items-center justify-center">
               <img src="/icons/package.svg" class="w-10" alt="" />
@@ -20,7 +20,7 @@
                 از بسته خریداری شده شما
               </span>
             </div>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="mt-8">
@@ -162,7 +162,7 @@
         class="w-full bg-gold1 shadow-lg mt-8 h-24 rounded-lg flex items-center py-2 px-4 border-r-[10px] border-green-700 "
       >
         <div class="flex gap-3 items-center">
-          <a href="/SupportView" class="flex gap-3 items-center">
+          <router-link to="/SupportView" class="flex gap-3 items-center">
           <div class="w-14 h-14 rounded-full flex items-center justify-center">
             <img src="/img/comment.svg" class="w-10" alt="" />
           </div>
@@ -172,7 +172,7 @@
                 ما را برای ارائه خدمات بهتر یاری کنید .
               </span>
             </div>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
