@@ -8,9 +8,15 @@
       </h3>
       <div v-for="(item, index) in tutorials" :key="index" class="mt-5">
       <router-link :to="`/VideoView/${item.id}`">
-        <div class="flex justify-center gap-3 bg-gold1 rounded-xl px-12 py-4 items-center shadow-lg">
-          <img src="/img/playVideo.svg" alt="">
-          <span class="text-white">{{ item.title }}</span>
+        <div class="flex justify-center gap-3 custom-gradient-bg rounded-xl px-4 py-4 items-center shadow-lg w-full">
+          <div class="w-12">
+            <img src="/img/playVideo.svg" alt="">
+          </div>
+          <div class="w-48">
+
+            <span class="text-white">{{ item.title }}</span>
+          </div>
+         
         </div>
       </router-link>
     </div>

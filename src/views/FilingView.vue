@@ -53,7 +53,7 @@
         :key="item"
         class="mt-10"
       >
-        <a href="/detailsFiles">
+        <router-link to="/detailsFiles">
           <div
             class="max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden"
           >
@@ -127,7 +127,7 @@
               </div>
             </div>
           </div>
-        </a>
+        </router-link>
       </div>
       <div
         v-else-if="products.length == 0"

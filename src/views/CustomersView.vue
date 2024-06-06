@@ -152,7 +152,7 @@
         class="flex flex-col items-center justify-center gap-5"
       >
         <img src="/img/file.svg" class="w-72" alt="" />
-        <span class="text-[#333] font-semibold">هیچ فایلی ثبت نشده است !</span>
+        <span class="text-gold1 font-semibold">هیچ فایلی ثبت نشده است !</span>
       </div>
     </div>
     <div

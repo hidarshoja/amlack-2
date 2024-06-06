@@ -6,7 +6,7 @@
     
       <div
        
-        class="w-full mt-8 h-24 bg-gold1 rounded-lg border-r-[10px] border-green-700 flex items-center justify-between px-3   hover:bg-gold2"
+        class="w-full mt-8 h-24 custom-gradient-bg rounded-lg border-r-[10px] border-green-700 flex items-center justify-between px-3   hover:bg-gold2"
       >
         <div class="flex gap-3 items-center">
           <router-link to="/AccountView" class="flex gap-3">
@@ -213,7 +213,7 @@ export default {
         },
         {
           label: "خرید اشتراک",
-          imageSrc: "/img/sub.png",
+          imageSrc: "/icons/subscription2.png",
           link : "/BuySubscriptionView",
         },
         { label: "آموزش پنل",
