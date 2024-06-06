@@ -245,6 +245,7 @@
           </button>
         </div>
       </form>
+      <div class="w-full h-52"></div>
     </div>
   </div>
 </template>
