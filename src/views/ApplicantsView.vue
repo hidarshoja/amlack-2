@@ -1,10 +1,10 @@
 <template>
     <div
-    class="w-[90%]  min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%]  min-h-[1000px] mx-auto bg-bg1 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
     >
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] font-semibold"> متقاضیان</span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold"> متقاضیان</span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
       <div class="w-full relative mt-3">
         <input
@@ -22,13 +22,13 @@
         <div>
           <span
             @click="openModal = true"
-            class="bg-green-300 text-sm py-1.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center"
+            class="bg-gold1 text-sm py-1.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center"
           >
             <span><img src="/img/filter.svg" class="w-4" alt="" /></span
             ><span>فیلترها</span>
           </span>
         </div>
-        <div class="flex gap-2 text-sm">
+        <div class="flex gap-2 text-sm text-gold1">
           <span>نمایش</span>
           <span>20</span>
           <span>مورد از</span>
@@ -44,9 +44,9 @@
       >
         <a href="#">
           <div
-            class="shadow-lg rounded-xl bg-white font-yekan overflow-hidden border-t border-t-[#eaeaea]"
+            class="shadow-lg rounded-xl bg-gold1 font-yekan overflow-hidden border-t border-t-[#eaeaea]"
           >
-            <div class="p-6 bg-gray-100">
+            <div class="p-6 bg-gold1">
               <div class="w-full bg-gray-200 relative  rounded-t-lg overflow-hidden">
                 <span class="absolute text-green-100 right-1 top-1 text-sm bg-green-700 rounded-md px-1">{{ item.title }}</span>
                <img :src="item.src" width="280px" height="80px" alt="">
@@ -151,58 +151,53 @@
       </div>
       </div>
       <nav
-        class="flex items-center justify-between border-t border-gray-200 px-4 sm:px-0 mt-10"
-      >
-        <div class="-mt-px flex w-0 flex-1">
+      class="flex items-center justify-between border-t border-gray-200 px-4 sm:px-0 mt-10"
+    >
+      <div class="-mt-px flex w-0 flex-1">
+        <a
+          href="#"
+          class="inline-flex items-center border-t-2 border-transparent pr-1 pt-4 text-sm font-medium text-gold1 hover:border-gray-300 hover:text-gold6"
+        >
+          قبلی
+        </a>
+      </div>
+      <div class="hidden md:-mt-px md:flex">
+        <a
+          href="#"
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >1</a>
+        <a
+          href="#"
+          class="inline-flex items-center border-t-4 border-gold1 px-4 pt-4 text-sm font-medium text-gold1"
+          aria-current="page"
+          >2</a
+        >
+        <a
+          href="#"
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >3</a>
           <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-transparent pr-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >
-            قبلی
-          </a>
-        </div>
-        <div class="hidden md:-mt-px md:flex">
+          href="#"
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >4</a>
           <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-            >1</a
-          >
+          href="#"
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >5</a>
           <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-indigo-500 px-4 pt-4 text-sm font-medium text-indigo-600"
-            aria-current="page"
-            >2</a
-          >
-          <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-            >3</a
-          >
-          <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-            >4</a
-          >
-          <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-            >5</a
-          >
-          <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-            >6</a
-          >
-        </div>
-        <div class="-mt-px flex w-0 flex-1 justify-end">
-          <a
-            href="#"
-            class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >
-            بعدی
-          </a>
-        </div>
-      </nav>
+          href="#"
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >6</a>
+      </div>
+      <div class="-mt-px flex w-0 flex-1 justify-end">
+        <a
+          href="#"
+          class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gold1 hover:border-gray-300 hover:text-gold6"
+        >
+          بعدی
+        </a>
+      </div>
+    </nav>
       <div
         v-if="openModal"
         class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"

@@ -1,11 +1,11 @@
 <template>
   <div
-  class="w-[90%]  min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+  class="w-[90%]  min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <div>
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] font-semibold"> دفاتر فایل </span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold"> دفاتر فایل </span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
     </div>
     <div class="w-full relative mt-3">
@@ -25,7 +25,7 @@
       <div>
         <span
           @click="openModal = true"
-          class="bg-green-300 text-sm py-2.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center"
+          class="bg-gold1 text-sm py-2.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center"
         >
           <span><img src="/img/filter.svg" class="w-5" alt="" /></span
           ><span>فیلترها</span>
@@ -34,7 +34,7 @@
       <div class="flex gap-2 text-sm">
         <span
           @click="openModal2 = true"
-          class="bg-green-300 text-sm py-1.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center justify-between"
+          class="bg-gold1 text-sm py-1.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center justify-between"
         >
           <span class="text-green-800 text-lg">+</span><span>ثبت فایل</span>
         </span>
@@ -51,7 +51,7 @@
           <div
             class="shadow-lg rounded-xl bg-white font-yekan overflow-hidden border-t border-t-[#eaeaea]"
           >
-            <div class="p-6 bg-gray-100">
+            <div class="p-6 bg-gold1">
               <div class="w-full bg-gray-200 relative  rounded-t-lg overflow-hidden">
                 <span class="absolute text-green-100 right-1 top-1 text-sm bg-green-700 rounded-md px-1">{{ item.title }}</span>
                <img :src="item.src" width="280px" height="80px" alt="">

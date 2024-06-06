@@ -1,17 +1,17 @@
 <template>
   <div
-    class="w-[90%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
   <div class="flex items-center justify-between">
     <h3 class="flex gap-1 items-center text-base lg:text-xl">
-      <span class="text-[#333] font-semibold"> مشارکت در ساخت </span>
-      <span class="text-[#333] font-semibold">⟵</span>
+      <span class="text-gold1 font-semibold"> مشارکت در ساخت </span>
+      <span class="text-gold1 font-semibold">⟵</span>
     </h3>
     <div class="flex items-center justify-end  py-5">
         <router-link to="/ParticipationFormView">
 
             <button
-              class="border text-[#ebebeb] bg-green-700 border-green-500 py-1.5 px-6 rounded-lg hover:bg-green-600 hover:text-white"
+              class="border text-[#ebebeb] bg-gold1  py-1.5 px-6 rounded-lg hover:bg-gold6 hover:text-white"
             >
                ثبت در خواست مشارکت
             </button>
@@ -19,7 +19,7 @@
       </div>
   </div>
     <div
-      class="flex flex-col lg:flex-row gap-8 mt-6 items-center bg-white p-3 rounded-md lg:px-8"
+      class="flex flex-col lg:flex-row gap-8 mt-6 items-center bg-gold1 p-3 rounded-md lg:px-8"
     >
       <div class="w-full lg:w-1/2">
         <p class="text-[#333] text-xl font-semibold py-5">
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col lg:flex-row gap-8 mt-6 items-center bg-white p-3 rounded-md lg:px-8"
+      class="flex flex-col lg:flex-row gap-8 mt-6 items-center bg-gold1 p-3 rounded-md lg:px-8"
     >
       <div class="w-full lg:w-1/2 p-2">
         <img
@@ -83,7 +83,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col lg:flex-row gap-8 mt-6 items-center bg-white p-3 rounded-md lg:px-8"
+      class="flex flex-col lg:flex-row gap-8 mt-6 items-center bg-gold1 p-3 rounded-md lg:px-8"
     >
       <div class="w-full lg:w-1/2">
         <p class="text-[#333] text-xl font-semibold py-5">
@@ -119,7 +119,7 @@
       </div>
     </div>
     <div class="flex flex-wrap gap-6 px-4 mt-16 items-center justify-center">
-        <div class="w-full lg:w-[390px] h-[500px] px-4 py-5 rounded-lg border border-gray-600 bg-white shadow-2xl shadow-black flex flex-col items-center justify-around hover:bg-green-200">
+        <div class="w-full lg:w-[390px] h-[500px] px-4 py-5 rounded-lg border border-gray-600 bg-gold1 shadow-2xl shadow-black flex flex-col items-center justify-around hover:bg-gold3">
             <div>
                 <img src="/img/users.jpg" class="rounded-full" alt="">
             </div>
@@ -132,7 +132,7 @@
                 </p>
             </div>
         </div>
-        <div class="w-full lg:w-[390px] h-[500px] px-4 py-5 rounded-lg border border-gray-600 bg-white shadow-2xl shadow-black flex flex-col items-center justify-around hover:bg-green-200">
+        <div class="w-full lg:w-[390px] h-[500px] px-4 py-5 rounded-lg border border-gray-600 bg-gold1 shadow-2xl shadow-black flex flex-col items-center justify-around hover:bg-gold3">
             <div>
                 <img src="/img/users2.jpg" class="rounded-full" alt="">
             </div>
@@ -145,7 +145,7 @@
                 </p>
             </div>
         </div>
-        <div class="w-full lg:w-[390px] h-[500px] px-4 py-5 rounded-lg border border-gray-600 bg-white shadow-2xl shadow-black flex flex-col items-center justify-around hover:bg-green-200">
+        <div class="w-full lg:w-[390px] h-[500px] px-4 py-5 rounded-lg border border-gray-600 bg-gold1 shadow-2xl shadow-black flex flex-col items-center justify-around hover:bg-gold3">
             <div>
                 <img src="/img/users3.jpg" class="rounded-full" alt="">
             </div>
@@ -163,7 +163,7 @@
         <router-link to="/ParticipationFormView">
 
             <button
-              class="w-full lg:w-[250px] border text-[#ebebeb] bg-green-700 border-green-500 py-1.5 px-6 rounded-lg hover:bg-green-600 hover:text-white"
+              class="w-full lg:w-[250px] border text-[#ebebeb] bg-gold1 py-1.5 px-6 rounded-lg hover:bg-gold3 hover:text-white"
             >
                ثبت در خواست مشارکت
             </button>

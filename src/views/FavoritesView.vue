@@ -1,17 +1,17 @@
-
-
-
 <template>
   <div
-  class="w-[90%]  min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <div class="flex items-center justify-between">
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] font-semibold text-sm md:text-base"> فایل های نشان شده </span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold"> فایلینگ های نشان شده </span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
       <div>
-        <select id="transactionType" class="py-0.5 w-24 md:w-32 px-1 rounded-md border border-1 outline-none border-[#a3a3a3] flex items-center justify-between">
+        <select
+          id="transactionType"
+          class="py-0.5 w-32 px-1 rounded-md border border-1 outline-none border-[#a3a3a3] flex items-center justify-between"
+        >
           <option value="buy">خرید</option>
           <option value="sell">فروش</option>
         </select>
@@ -33,13 +33,13 @@
       <div>
         <span
           @click="openModal = true"
-          class="bg-green-300 text-sm py-1.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center"
+          class="bg-gold1 text-sm py-1.5 px-4 rounded-lg border-green-700 border-1 border cursor-pointer text-gray-800 flex gap-2 items-center"
         >
           <span><img src="/img/filter.svg" class="w-4" alt="" /></span
           ><span>فیلترها</span>
         </span>
       </div>
-      <div class="flex gap-2 text-sm">
+      <div class="flex gap-2 text-sm text-gold1">
         <span>نمایش</span>
         <span>20</span>
         <span>مورد از</span>
@@ -53,7 +53,7 @@
         :key="item"
         class="mt-10"
       >
-        <a href="#">
+        <a href="/detailsFiles">
           <div
             class="max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden"
           >
@@ -70,7 +70,7 @@
                 >{{ item.title }}</span
               >
             </div>
-            <div class="p-6">
+            <div class="p-6 bg-gold1">
               <h2 class="text-xl font-bold text-gray-800">{{ item.type }}</h2>
               <p class="text-gray-600 mt-2">{{ item.dic }}</p>
               <div class="flex items-center mt-4 text-gray-700">
@@ -90,7 +90,7 @@
                 <span>{{ item.time }} ساعت پیش</span>
               </div>
             </div>
-            <div class="bg-gray-100 px-6 py-4">
+            <div class="bg-gold1 px-6 py-4">
               <div
                 v-if="item.type === 'رهن و اجاره'"
                 class="flex justify-between items-center bg-pink-500 text-white py-2 px-4 rounded-md"
@@ -143,7 +143,7 @@
       <div class="-mt-px flex w-0 flex-1">
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent pr-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+          class="inline-flex items-center border-t-2 border-transparent pr-1 pt-4 text-sm font-medium text-gold1 hover:border-gray-300 hover:text-gold6"
         >
           قبلی
         </a>
@@ -151,40 +151,35 @@
       <div class="hidden md:-mt-px md:flex">
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >1</a
-        >
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >1</a>
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-indigo-500 px-4 pt-4 text-sm font-medium text-indigo-600"
+          class="inline-flex items-center border-t-4 border-gold1 px-4 pt-4 text-sm font-medium text-gold1"
           aria-current="page"
           >2</a
         >
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >3</a
-        >
-        <a
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >3</a>
+          <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >4</a
-        >
-        <a
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >4</a>
+          <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >5</a
-        >
-        <a
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >5</a>
+          <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >6</a
-        >
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >6</a>
       </div>
       <div class="-mt-px flex w-0 flex-1 justify-end">
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+          class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gold1 hover:border-gray-300 hover:text-gold6"
         >
           بعدی
         </a>
@@ -194,7 +189,7 @@
       v-if="openModal"
       class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
     >
-      <div class="bg-white px-8 py-2 rounded-lg w-[90%] max-h-[90vh] overflow-y-auto">
+      <div class="bg-white px-8 py-2 rounded-lg  w-[90%] max-h-[90vh] overflow-y-auto">
         <div class="flex items-center justify-between py-3">
           <div class="text-gray-600 text-sm">فیلترها</div>
           <button

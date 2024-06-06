@@ -1,12 +1,12 @@
 <template>
   <div>
     <div
-      class="w-[90%]  min-h-[1000px] mx-auto bg-[#29313d] shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+      class="w-[90%]  min-h-[1000px] mx-auto bg-bg1 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
     >
     
       <div
        
-        class="w-full mt-8 h-24 bg-gradient-to-r from-amber-400 to-amber-500 rounded-lg border-r-[5px] border-amber-950 flex items-center justify-between px-3  hover:bg-gradient-to-r hover:from-amber-700 hover:to-amber-400"
+        class="w-full mt-8 h-24 bg-gold1 rounded-lg border-r-[10px] border-green-700 flex items-center justify-between px-3   hover:bg-gold2"
       >
         <div class="flex gap-3 items-center">
           <a href="/AccountView" class="flex gap-3">
@@ -26,7 +26,7 @@
       <div class="mt-8">
         <div class="flex flex-col md:flex-row gap-3">
           <div
-            class="w-full md:w-1/2 h-16 bg-gradient-to-r from-amber-400 to-amber-500 rounded-lg  py-2 px-4 hover:bg-gradient-to-r hover:from-amber-500 hover:to-amber-400"
+            class="w-full md:w-1/2 h-16 bg-gold2 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
             <div class="flex gap-3 items-center relative cursor-pointer">
               <router-link to="/filing" class="flex items-center gap-2">
@@ -34,7 +34,7 @@
                 class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center"
               >
                 <span
-                  class="absolute bg-red-400 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
+                  class="absolute bg-bg3 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
                   >2</span
                 >
                 <img src="/icons/file.png" class="w-6" alt="" />
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div
-          class="w-full md:w-1/2 h-16 bg-gradient-to-r from-amber-400 to-amber-500 rounded-lg  py-2 px-4 hover:bg-gradient-to-r hover:from-amber-700 hover:to-amber-400"
+          class="w-full md:w-1/2 h-16  bg-gold1 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
             <div class="flex gap-3 items-center relative cursor-pointer">
               <router-link to="/FavoritesView" class="flex items-center gap-2">
@@ -55,7 +55,7 @@
                   class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center"
                 >
                   <span
-                    class="absolute bg-red-400 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
+                    class="absolute bg-bg3 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
                     >0</span
                   >
                   <img src="/icons/files.png" class="w-6" alt="" />
@@ -71,7 +71,7 @@
       <div class="mt-4">
         <div class="flex flex-col md:flex-row gap-3">
           <div
-          class="w-full md:w-1/2 h-16 bg-gradient-to-r from-amber-400 to-amber-500 rounded-lg  py-2 px-4 hover:bg-gradient-to-r hover:from-amber-700 hover:to-amber-400"
+          class="w-full md:w-1/2 h-16 bg-gold1 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
             <div class="flex gap-3 items-center relative cursor-pointer">
               <router-link to="/ApplicantsView" class="flex items-center gap-2">
@@ -79,7 +79,7 @@
                 class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center"
               >
                 <span
-                  class="absolute bg-red-400 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
+                  class="absolute bg-bg3 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
                   >6</span
                 >
                 <img src="/icons/users.png" class="w-6" alt="" />
@@ -91,7 +91,7 @@
             </div>
           </div>
           <div
-          class="w-full md:w-1/2 h-16 bg-gradient-to-r from-amber-400 to-amber-500 rounded-lg  py-2 px-4 hover:bg-gradient-to-r hover:from-amber-700 hover:to-amber-400"
+          class="w-full md:w-1/2 h-16 bg-gold1 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
             <div class="flex gap-3 items-center relative cursor-pointer">
               <router-link to="/CustomersView" class="flex items-center gap-2">
@@ -100,7 +100,7 @@
                   class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center"
                 >
                   <span
-                    class="absolute bg-red-400 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
+                    class="absolute bg-bg3 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-7px] right-[-3px]"
                     >4</span
                   >
                   <img src="/icons/user.png" class="w-6" alt="" />
@@ -113,7 +113,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-5 flex w-full p-4 bg-amber-400 rounded-lg">
+      <div class="mt-5 flex w-full p-4 bg-gold1 rounded-lg border-r-[10px] border-green-700 ">
         <div class="flex flex-col lg:flex-row w-full items-start gap-4 justify-between">
           <input type="text" placeholder="جستجو در تمام آگهی ها " class="py-3 px-4 w-full lg:w-3/6 text-sm text-[#333232] rounded-lg outline-none">
          <div class="flex items-center w-full lg:w-3/6 gap-2 justify-between">
@@ -153,13 +153,13 @@
       </div>
       <div class="flex items-center justify-end mt-5 py-5">
         <button
-          class="border bg-amber-400 py-1.5 px-6 rounded-lg hover:bg-amber-500 hover:text-white"
+          class="border bg-gold1 py-1.5 px-6 rounded-lg hover:bg-gold2 hover:text-white"
         >
           مشاهده همه
         </button>
       </div>
       <div
-        class="w-full bg-gradient-to-b from-amber-200 to-amber-300 shadow-lg mt-8 h-24 rounded-lg flex items-center py-2 px-4"
+        class="w-full bg-gold1 shadow-lg mt-8 h-24 rounded-lg flex items-center py-2 px-4 border-r-[10px] border-green-700 "
       >
         <div class="flex gap-3 items-center">
           <a href="/SupportView" class="flex gap-3 items-center">

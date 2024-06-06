@@ -1,19 +1,19 @@
 <template>
     <div
-    class="w-[90%]  min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%]  min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
     >
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] font-semibold">تغییر رمز عبور</span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold">تغییر رمز عبور</span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
-      <div className="rounded-md bg-yellow-50 p-4 mt-5">
+      <div className="rounded-md bg-gold1 p-4 mt-5">
       <div className="flex items-start  gap-5">
         <div>
           <img src="/icons/alert.png" class="w-6" alt="">
         </div>
        
          
-          <div className=" text-sm text-yellow-700">
+          <div className=" text-sm text-white">
             <p>
               پسورد حداقل باید شش رقم باشد و شامل حرف باشد. 
             </p>
@@ -26,7 +26,7 @@
           <div class="w-full md:w-1/2 relative">
             <label
               for="password"
-              class="block text-sm font-medium leading-6 text-gray-900"
+              class="block text-sm font-medium leading-6 text-gold1"
             >
               رمز جدید
             </label>
@@ -67,7 +67,7 @@
           <div class="w-full md:w-1/2 relative">
             <label
               for="r-password"
-              class="block text-sm font-medium leading-6 text-gray-900"
+              class="block text-sm font-medium leading-6 text-gold1"
             >
               تکرار رمز جدید
             </label>
@@ -110,7 +110,7 @@
         <div>
           <button
             type="submit"
-            class="flex mt-10 w-full justify-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+            class="flex mt-10 w-full justify-center rounded-md bg-gold1 px-3 py-2 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gold3"
           >
             ثبت تغییرات
           </button>

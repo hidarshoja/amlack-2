@@ -1,7 +1,7 @@
 <template>
   <Carousel :items-to-show="isMobile ? 1 : 3" autoplay="3000" :wrap-around="true">
   <Slide v-for="(slide, index) in slides" :key="index">
-    <div class="carousel__item border-2 border-red-100 shadow-2xl p-1 bg-white rounded-md w-[390px]">
+    <div class="carousel__item border-2 border-red-100 shadow-2xl p-1 bg-gold1 rounded-md w-[390px]">
       <img :src="slide.image" class="w-[100%] h-56 cursor-pointer" alt="Slide {{ index + 1 }}" />
       <div class="py-6 text-base font-semibold text-[#444]">{{ slide.title }}</div>
       <div class="py-6 text-sm px-5">{{ slide.dic }}</div>

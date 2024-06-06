@@ -1,10 +1,10 @@
 <template>
   <div
-  class="w-[90%]  min-h-[1000px] mx-auto bg-white lg:bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+  class="w-[90%]  min-h-[1000px] mx-auto shadow-lg py-10 px-3 lg:px-28 rounded-xl"
  >
  <h3 class="flex gap-1 items-center">
-     <span class="text-[#333] font-semibold"> تیکت ها </span>
-     <span class="text-[#333] font-semibold">⟵</span>
+     <span class="text-gold1 font-semibold"> تیکت ها </span>
+     <span class="text-gold1 font-semibold">⟵</span>
    </h3>
  <div class="px-4 sm:px-6 lg:px-8">
   
@@ -16,7 +16,7 @@
 
    </h3>
          <table class="min-w-full">
-           <thead class="bg-green-950 h-20">
+           <thead class="bg-gold1 h-20">
              <tr>
            
                <th scope="col" class="px-8 text-center text-sm font-semibold text-gray-100"> تاریخ</th>
@@ -33,7 +33,7 @@
                <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">{{ person.title }}</td>
                <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">{{ person.state }}</td>
                <td class="whitespace-nowrap px-3 py-4 text-sm text-center text-gray-500">
-                <span  @click="goToChat(person.title)"  class="bg-green-500 text-white text-[12px] px-2 py-0.5 rounded-lg border cursor-pointer">
+                <span  @click="goToChat(person.title)"  class="bg-gold1 text-white text-[12px] px-2 py-0.5 rounded-lg border cursor-pointer">
                   مشاهده
                 </span>
                </td>

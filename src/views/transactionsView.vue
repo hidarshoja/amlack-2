@@ -1,17 +1,17 @@
 <template>
   <div
-    class="w-[90%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <h3 class="flex gap-1 items-center">
-      <span class="text-[#333] font-semibold"> سوابق پرداختی </span>
-      <span class="text-[#333] font-semibold">⟵</span>
+      <span class="text-gold1 font-semibold"> سوابق پرداختی </span>
+      <span class="text-gold1 font-semibold">⟵</span>
     </h3>
     <div class="px-4 sm:px-6 lg:px-8">
       <div class="mt-8 flow-root">
         <div class="hidden xl:block overflow-x-auto">
           <div class="inline-block min-w-full align-middle">
             <table class="min-w-full">
-              <thead class="bg-green-950">
+              <thead class="bg-gold1">
                 <tr>
                   <th
                     scope="col"
@@ -141,7 +141,7 @@
           <div class="border-b border-gray-200 mt-6 bg-white px-4 py-5 sm:px-6 rounded-md relative"  v-for="(person, personIdx ) in people" :key="person.code">
             <div class="w-full">
               <div class="w-[100px] mx-auto">
-                <span class="absolute flex items-center rounded-md  px-5 py-1.5 bg-green-800 text-sm  text-gray-100 shadow-sm  top-[-17px]">مشاهده</span>
+                <span class="absolute flex items-center rounded-md  px-5 py-1.5 bg-gold1 text-sm  text-gray-100 shadow-sm  top-[-17px]">مشاهده</span>
               </div>
             </div>
             <div

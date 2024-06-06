@@ -1,15 +1,15 @@
 <template>
   <div
-    class="w-[90%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <div class="flex items-center justify-between">
       <h3 class="flex gap-1 items-center text-base lg:text-xl">
-        <span class="text-[#333] font-semibold"> گفتگوی دو نفره </span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold"> گفتگوی دو نفره </span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
-      <h3 class="text-base text-[#333] font-semibold">
+      <h3 class="text-base text-gold1 font-semibold">
         عنوان گفتگو :
-        <span class="text-red-600 font-normal">
+        <span class="text-gold1 font-normal">
           {{ title }}
         </span>
       </h3>
@@ -41,7 +41,7 @@
         </div>
         <div class="py-6 flex items-center flex-col md:flex-row gap-2 mt-10">
             <input type="text" v-model="commentText" name="" class="w-full md:w-[80%] py-2 px-2 rounded-lg border-2 border-gray-600 outline-none" placeholder="ارسال نظر" id="">
-            <button @click="postComment" class="w-full  md:w-[20%] py-2 border-2 border-green-500 rounded-md bg-green-500 text-white hover:bg-slate-100 hover:text-green-500">ارسال</button>
+            <button @click="postComment" class="w-full  md:w-[20%] py-2  rounded-md bg-gold1 text-white hover:bg-gold6">ارسال</button>
         </div>
       </div>
     </div>

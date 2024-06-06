@@ -1,14 +1,14 @@
 <template>
     <div
-    class="w-[90%]  min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%]  min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
     >
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] font-semibold">  آموزش های پنل </span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold">  آموزش های پنل </span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
       <div v-for="(item, index) in tutorials" :key="index" class="mt-5">
       <router-link :to="`/VideoView/${item.id}`">
-        <div class="flex justify-center gap-3 bg-green-600 rounded-xl px-12 py-4 items-center shadow-lg">
+        <div class="flex justify-center gap-3 bg-gold1 rounded-xl px-12 py-4 items-center shadow-lg">
           <img src="/img/playVideo.svg" alt="">
           <span class="text-white">{{ item.title }}</span>
         </div>

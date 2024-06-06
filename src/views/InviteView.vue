@@ -1,10 +1,10 @@
 <template>
   <div
-  class="w-[90%]  min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+  class="w-[90%]  min-h-[1000px] mx-auto shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <h3 class="flex gap-1 items-center">
-      <span class="text-[#333] font-semibold"> دعوت دوستان </span>
-      <span class="text-[#333] font-semibold">⟵</span>
+      <span class="text-gold1 font-semibold"> دعوت دوستان </span>
+      <span class="text-gold1 font-semibold">⟵</span>
     </h3>
     <div
       class="flex items-center flex-col mt-10 gap-5 w-[95%] lg:w-[60%] mx-auto bg-gray-100 px-4 py-6 rounded-lg shadow-xl"

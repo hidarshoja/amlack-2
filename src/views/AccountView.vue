@@ -1,10 +1,10 @@
 <template>
     <div
-    class="w-[95%]  min-h-[1000px] mx-auto bg-white lg:bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[95%]  min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
    >
    <h3 class="flex gap-1 items-center">
-       <span class="text-[#333] font-semibold">وضعیت اکانت </span>
-       <span class="text-[#333] font-semibold">⟵</span>
+       <span class="text-gold1 text-xl font-semibold">وضعیت اکانت </span>
+       <span class="text-gold1 text-xl font-semibold">⟵</span>
      </h3>
    <div class="px-4 sm:px-6 lg:px-8">
     
@@ -12,19 +12,19 @@
        <div class="hidden xl:block  overflow-x-auto">
          <div class="inline-block min-w-full  align-middle">
             <h3 class="flex gap-1 items-center">
-       <span class="text-[#333] font-semibold py-3">وضعیت پرداخت </span>
+       <span class="text-gold1  font-semibold py-6">وضعیت پرداخت </span>
 
      </h3>
            <table class="min-w-full">
-             <thead class="bg-green-950 h-20">
+             <thead class="bg-gold1  h-20">
                <tr>
-                 <th scope="col" class="px-8 text-start text-sm font-semibold text-gray-100"> بابت</th>
-                 <th scope="col" class="px-8  text-start text-sm font-semibold text-gray-100">مبلغ </th>
-                 <th scope="col" class="px-8  text-start text-sm font-semibold text-gray-100">مبلغ تخفیف </th>
-                 <th scope="col" class="px-8  text-start text-sm font-semibold text-gray-100">تاریخ پرداخت</th>
-                 <th scope="col" class="px-8  text-start text-sm font-semibold text-gray-100">شماره ارجاع</th>
-                 <th scope="col" class="px-8  text-start text-sm font-semibold text-gray-100">شماره کارت</th>
-                 <th scope="col" class="px-8  text-start text-sm font-semibold text-gray-100">وضعیت پرداخت</th>
+                 <th scope="col" class="px-8 text-center text-sm font-semibold text-gray-100"> بابت</th>
+                 <th scope="col" class="px-8  text-center text-sm font-semibold text-gray-100">مبلغ </th>
+                 <th scope="col" class="px-8  text-center text-sm font-semibold text-gray-100">مبلغ تخفیف </th>
+                 <th scope="col" class="px-8  text-center text-sm font-semibold text-gray-100">تاریخ پرداخت</th>
+                 <th scope="col" class="px-8  text-center text-sm font-semibold text-gray-100">شماره ارجاع</th>
+                 <th scope="col" class="px-8  text-center text-sm font-semibold text-gray-100">شماره کارت</th>
+                 <th scope="col" class="px-8  text-center text-sm font-semibold text-gray-100">وضعیت پرداخت</th>
                </tr>
              </thead>
              <tbody class="bg-white">
