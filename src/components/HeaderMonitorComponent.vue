@@ -5,7 +5,7 @@
             <img src="/img/sorena.png" class="w-[30px]" alt="" />
           </div>
           <div>
-            <span class="text-green-950 text-xl font-semibold"
+            <span class="text-gold1 text-xl font-semibold"
               >املاک سورنا</span
             >
           </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="w-full h-28 text-center fixed bottom-1 z-10">
     <div
-      class="flex flex-row items-center justify-center lg:justify-around relative w-[90%]  mx-auto bg-gray-100 shadow-lg py-2 px-3 rounded-xl"
+      class="flex flex-row items-center justify-center lg:justify-around relative w-[90%]  mx-auto bg-gold2 border border-[#696cff] shadow-lg py-2 px-3 rounded-xl"
     >
 
       <div
@@ -9,7 +9,7 @@
       >
          <router-link to="/expertMonitor/PropertyMonitor">
           <span class="inline-block p-1 rounded-full">
-            <img src="/icons/home.png" class="w-7" alt="" />
+            <img src="/icons/home.png" class="w-7 opacity-85" alt="" />
           </span>
         </router-link>
        
@@ -19,62 +19,26 @@
         
           <div class="flex flex-col items-center gap-1 cursor-pointer">
             <span class="inline-block p-1 rounded-full">
-              <img src="/icons/user.png" class="w-7" alt="" />
+              <img src="/icons/user.png" class="w-7 opacity-85" alt="" />
             </span>
             <span class="text-sm"> پرفایل </span>
           </div>
       </router-link>
      
        
-       <!-- <router-link to="/ApplicantsView">
-         
-            <div class="flex flex-col items-center gap-1 cursor-pointer">
-              <span class="inline-block p-1 rounded-full">
-                <img src="/icons/users.png" class="w-7" alt="" />
-              </span>
-              <span> متقاضیان </span>
-            </div>
-
-       </router-link> -->
-      
-       <!-- <router-link to="/ApplicantsView">
-         
-         <div class="flex flex-col items-center gap-1 cursor-pointer">
-           <span class="inline-block p-1 rounded-full">
-             <img src="/icons/users.png" class="w-7" alt="" />
-           </span>
-           <span> متقاضیان </span>
-         </div>
-
-    </router-link> -->
+    
       </div>
       <div></div>
       <div class="flex items-center justify-end w-full lg:w-1/6 gap-5">
         <div class="flex flex-col items-center gap-1 cursor-pointer">
           <router-link to="/expertMonitor/NotificationMonitor" class="flex flex-col items-center gap-1">
           <span class="inline-block p-1 rounded-full">
-            <img src="/icons/alert.png" class="w-7" alt="" />
+            <img src="/icons/alert8.png" class="w-7 opacity-85" alt="" />
           </span>
           <span class="text-sm">  پیام ها  </span>
           </router-link>
         </div>
-        <!-- <div class="flex flex-col items-center gap-1 cursor-pointer">
-          <router-link to="/CustomersView" class="flex flex-col items-center gap-1">
-            <span class="inline-block p-1 rounded-full">
-              <img src="/icons/user.png" class="w-7" alt="" />
-            </span>
-            <span> مشتریان </span>
-          </router-link>
-        </div>
-       
-        <div class="flex flex-col items-center gap-1 cursor-pointer">
-          <router-link to="/expert/loginExpert" class="flex flex-col items-center gap-1">
-            <span class="inline-block p-1 rounded-full">
-              <img src="/icons/user.png" class="w-7" alt="" />
-            </span>
-            <span> متخصصان </span>
-          </router-link>
-        </div> -->
+      
       </div>
     </div>
   </div>

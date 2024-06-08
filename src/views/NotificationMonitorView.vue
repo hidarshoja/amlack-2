@@ -30,16 +30,16 @@
       </div>
     </div>
     <div
-      class="w-[98%] md:w-[67%] lg:w-[75%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-1 lg:px-3 rounded-xl"
+      class="w-[98%] md:w-[67%] lg:w-[75%] min-h-[1000px] mx-auto  shadow-lg py-10 px-1 lg:px-3 rounded-xl"
     >
       <h3 class="flex gap-1">
-        <span class="text-[#333] font-semibold">اطلاعیه ها</span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold">اطلاعیه ها</span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
       <div
         v-for="(notification, index) in notifications"
         :key="index"
-        class="w-full h-28 flex items-center justify-between bg-[#e9e9ff] text-[#696cff] rounded-lg border-r-[8px] border-green-400 py-2 px-4 mt-5"
+        class="w-full h-28 flex items-center justify-between bg-gold1 text-white rounded-lg border-r-[8px] border-green-400 py-2 px-4 mt-5"
       >
         <div class="flex gap-3 items-center cursor-pointer">
           <div class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">

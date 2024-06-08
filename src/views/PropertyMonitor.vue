@@ -1,11 +1,11 @@
 <template>
   <div
-    class="w-[90%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <div class="flex items-center justify-between">
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] font-semibold"> ملک های ثبت شده </span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold"> ملک های ثبت شده </span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
     </div>
     <div class="w-full relative mt-3">
@@ -21,7 +21,7 @@
       />
     </div>
     <div class="flex mt-5 items-center justify-between">
-      <div class="flex gap-2 text-sm">
+      <div class="flex gap-2 text-sm text-gold1">
         <span>نمایش</span>
         <span>20</span>
         <span>مورد از</span>
@@ -39,7 +39,7 @@
      
           <!-- طرح 6 -->
           <div
-            class="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200"
+            class="max-w-sm mx-auto bg-gold1 rounded-xl shadow-lg overflow-hidden border border-gray-200"
           >
             <div
               class="bg-gradient-to-r from-blue-500 to-purple-500 h-48 relative"
@@ -82,7 +82,7 @@
                 <span class="text-gray-800">{{ item.time }} ساعت پیش</span>
               </div>
             </div>
-            <div class="bg-gray-100 px-6 py-4">
+            <div class="bg-gold1 px-6 py-4">
               <div
                 v-if="item.type === 'رهن و اجاره'"
                 class="flex justify-between items-center bg-pink-500 text-white py-2 px-4 rounded-md"
@@ -126,7 +126,7 @@
         class="flex flex-col items-center justify-center gap-5"
       >
         <img src="/img/file.svg" class="w-72" alt="" />
-        <span class="text-[#333] font-semibold">هیچ فایلی ثبت نشده است !</span>
+        <span class="text-gold1 font-semibold">هیچ فایلی ثبت نشده است !</span>
       </div>
     </div>
     <nav
@@ -135,7 +135,7 @@
       <div class="-mt-px flex w-0 flex-1">
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent pr-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+          class="inline-flex items-center border-t-2 border-transparent pr-1 pt-4 text-sm font-medium text-gold1 hover:border-gray-300 hover:text-gold6"
         >
           قبلی
         </a>
@@ -143,40 +143,35 @@
       <div class="hidden md:-mt-px md:flex">
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >1</a
-        >
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >1</a>
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-indigo-500 px-4 pt-4 text-sm font-medium text-indigo-600"
+          class="inline-flex items-center border-t-4 border-gold1 px-4 pt-4 text-sm font-medium text-gold1"
           aria-current="page"
           >2</a
         >
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >3</a
-        >
-        <a
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >3</a>
+          <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >4</a
-        >
-        <a
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >4</a>
+          <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >5</a
-        >
-        <a
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >5</a>
+          <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-          >6</a
-        >
+          class="inline-flex items-center border-t-4 border-transparent px-4 pt-4 text-sm font-medium text-gray-100 hover:border-gold1 hover:text-gold1"
+          >6</a>
       </div>
       <div class="-mt-px flex w-0 flex-1 justify-end">
         <a
           href="#"
-          class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+          class="inline-flex items-center border-t-2 border-transparent pl-1 pt-4 text-sm font-medium text-gold1 hover:border-gray-300 hover:text-gold6"
         >
           بعدی
         </a>
@@ -189,7 +184,7 @@
 import { ref } from "vue";
 import { Switch } from "@headlessui/vue";
 
-const enabled = ref(false);
+
 
 export default {
   components: {

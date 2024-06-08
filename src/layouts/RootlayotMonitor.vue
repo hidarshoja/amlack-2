@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div class="w-full min-h-[1500px] bg-gray-200">
+      <div class="w-full min-h-[1500px] bg-[#29313d]">
         <!-- <div class="h-[100px]"></div> -->
        <!-- <HeaderComponent /> -->
           <div class="w-full">

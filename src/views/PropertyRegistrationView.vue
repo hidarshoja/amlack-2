@@ -1,11 +1,11 @@
 <template>
   <div
-    class="w-[90%] min-h-[1000px] mx-auto bg-gray-200 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <div class="flex items-center justify-between">
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] text-base font-semibold"> ثبت ملک </span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 text-base font-semibold"> ثبت ملک </span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
     </div>
     <div class="mt-6">
@@ -13,13 +13,13 @@
         <div class="w-full lg:w-1/3">
           <label
             for="location"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
             >وضعیت ملک</label
           >
           <select
             id="location"
             name="location"
-            class="mt-2 block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            class="mt-2 block w-full rounded-md border-0 py-1.5 px-3 text-gold1 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
           >
             <option>در حال ساخت</option>
             <option>زمین خالصه</option>
@@ -31,13 +31,13 @@
         <div class="w-full lg:w-1/3">
           <label
             for="location"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
             >منبع اطلاعات</label
           >
           <select
             id="location"
             name="location"
-            class="mt-2 block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            class="mt-2 block w-full rounded-md border-0 py-1.5 px-3 text-gold1 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
           >
             <option>مالک</option>
             <option>همساده</option>
@@ -48,7 +48,7 @@
         <div class="w-full lg:w-1/3">
           <label
             for="email"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
             >مساحت تقریبی</label
           >
           <div class="mt-2">
@@ -56,7 +56,7 @@
               type="text"
               name="email"
               id="email"
-              class="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              class="block w-full rounded-md border-0 py-1.5 px-3 text-gold1 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               placeholder="100"
             />
           </div>
@@ -66,13 +66,13 @@
         <div class="w-full lg:w-1/3">
           <label
             for="location"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
             >نوع ملک</label
           >
           <select
             id="location"
             name="location"
-            class="mt-2 block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            class="mt-2 block w-full rounded-md border-0 py-1.5 px-3 text-gold1 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
           >
             <option>مسکونی</option>
             <option>تجاری</option>
@@ -85,7 +85,7 @@
         <div class="w-full lg:w-1/3">
           <label
             for="email"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
           >
             آدرس</label
           >
@@ -94,7 +94,7 @@
               type="text"
               name="email"
               id="email"
-              class="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              class="block w-full rounded-md border-0 py-1.5 px-3 text-gold1 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               placeholder="خیابان آزادی"
             />
           </div>
@@ -102,7 +102,7 @@
         <div class="w-full lg:w-1/3">
           <label
             for="email"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
           >
             قیمت تقریبی جهت خرید(به میلیون)</label
           >
@@ -111,7 +111,7 @@
               type="text"
               name="email"
               id="email"
-              class="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              class="block w-full rounded-md border-0 py-1.5 px-3 text-gold1 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               placeholder="100"
             />
           </div>
@@ -121,7 +121,7 @@
         <div class="w-full lg:w-2/3">
           <label
             for="location"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
           >
             ثبت لوکیشن</label
           >
@@ -132,7 +132,7 @@
               id="address"
               disabled
               v-model="address"
-              class="block w-full rounded-md border-0 py-2 px-3 text-gray-900 text-right shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              class="block w-full rounded-md border-0 py-2 px-3 bg-slate-300 text-gold1 text-right shadow-sm ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               placeholder="خیابان آزادی"
             />
             <button
@@ -148,7 +148,7 @@
         <div class="w-full lg:w-1/3">
           <label
             for="email"
-            class="block text-sm font-medium leading-6 text-gray-900"
+            class="block text-sm font-medium leading-6 text-gold1"
           >
             قیمت تقریبی رهن (به میلیون)</label
           >
@@ -157,7 +157,7 @@
               type="text"
               name="email"
               id="email"
-              class="block w-full rounded-md border-0 py-2 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              class="block w-full rounded-md border-0 py-2 px-3 text-gold1 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               placeholder="100"
             />
           </div>
@@ -167,7 +167,7 @@
     <div class="w-full mt-6">
       <label
         for="description"
-        class="block text-sm font-medium leading-6 text-gray-900"
+        class="block text-sm font-medium leading-6 text-gold1"
       >
         سایر توضیحات
       </label>
@@ -176,7 +176,7 @@
           name="description"
           id="description"
           rows="8"
-          class="block w-full rounded-md border-0 py-1.5 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          class="block w-full rounded-md border-0 py-1.5 px-3 text-gold1 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
           placeholder="توضیحات خود را اینجا بنویسید"
         ></textarea>
       </div>
