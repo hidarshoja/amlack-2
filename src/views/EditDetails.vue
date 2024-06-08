@@ -1,19 +1,19 @@
 <template>
     <div
-    class="w-[90%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <div class="flex items-center justify-between">
       <h3 class="flex gap-1 items-center">
-        <span class="text-[#333] font-semibold"> ویرایش  فایل </span>
-        <span class="text-[#333] font-semibold">⟵</span>
+        <span class="text-gold1 font-semibold"> ویرایش  فایل </span>
+        <span class="text-gold1 font-semibold">⟵</span>
       </h3>
     </div>
-    <div class="  py-2 rounded-lg  w-[90%] max-h-[90vh] overflow-y-auto">
+    <div class="  py-2 rounded-lg  w-[90%] max-h-[90vh] overflow-y-auto text-gold1">
         
         <div class="mt-6">
           <div class="w-full flex flex-col lg:flex-row gap-3">
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">نوع واگذاری</p>
+              <p class="text-gold1 text-sm py-2">نوع واگذاری</p>
               <select
               v-model="formData.typeOfTransfer"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -25,7 +25,7 @@
               </select>
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">نوع ملک</p>
+              <p class="text-gold1 text-sm py-2">نوع ملک</p>
               <select
                 v-model="formData.typeOfHouse"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -37,7 +37,7 @@
               </select>
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">نوع کاربری</p>
+              <p class=" text-sm py-2">نوع کاربری</p>
               <select
                 v-model="formData.practical"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -51,7 +51,7 @@
           </div>
           <div class="w-full flex flex-col lg:flex-row gap-3 mt-3">
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">متراژ</p>
+              <p class=" text-sm py-2">متراژ</p>
               <input
                 type="text"
                 v-model="formData.metrage"
@@ -61,7 +61,7 @@
               />
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">قیمت متر مربع (تومان)</p>
+              <p class=" text-sm py-2">قیمت متر مربع (تومان)</p>
               <input
                 type="text"
                 v-model="formData.priceOfMetrage"
@@ -71,7 +71,7 @@
               />
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">قیمت کل (تومان)</p>
+              <p class=" text-sm py-2">قیمت کل (تومان)</p>
               <input
                 type="text"
                 v-model="formData.priceOfWhole"
@@ -83,7 +83,7 @@
           </div>
           <div class="w-full flex flex-col lg:flex-row gap-3 mt-3">
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">معاوضه</p>
+              <p class=" text-sm py-2">معاوضه</p>
               <select
               v-model="formData.exchange"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -93,7 +93,7 @@
               </select>
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">وام</p>
+              <p class=" text-sm py-2">وام</p>
               <select
               v-model="formData.loan"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -103,7 +103,7 @@
               </select>
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">مبلغ وام (اگر وام دارد)</p>
+              <p class=" text-sm py-2">مبلغ وام (اگر وام دارد)</p>
               <input
                 type="text"
                 v-model="formData.priceOfLoan"
@@ -115,7 +115,7 @@
           </div>
           <div class="w-full flex flex-col lg:flex-row gap-3 mt-3">
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">استان</p>
+              <p class=" text-sm py-2">استان</p>
               <select
               v-model="formData.state"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -127,7 +127,7 @@
               </select>
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">شهر</p>
+              <p class=" text-sm py-2">شهر</p>
               <select
               v-model="formData.city"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -139,7 +139,7 @@
               </select>
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">کوچه</p>
+              <p class=" text-sm py-2">کوچه</p>
               <input
                 type="text"
                 v-model="formData.address"
@@ -149,7 +149,7 @@
             </div>
           </div>
           <div class="w-full mt-3">
-            <p class="text-[#333] text-sm py-2">انتخاب تصاویر</p>
+            <p class=" text-sm py-2">انتخاب تصاویر</p>
             <div class="relative">
               <input
                 type="file"
@@ -163,7 +163,7 @@
                 <div
                   class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1 flex items-center justify-between"
                 >
-                  <span class="text-[#333] placeholder-[#999]">
+                  <span class=" placeholder-[#999]">
                     تصاویر را انتخاب کنید...
                   </span>
                   <svg
@@ -192,7 +192,7 @@
                   />
                 </div>
                 <div
-                  class="flex items-center justify-center w-full text-sm text-[#333]"
+                  class="flex items-center justify-center w-full text-sm text-gold1"
                   v-else
                 >
                   <p>تصویری انتخاب نشده است.</p>
@@ -201,7 +201,7 @@
             </div>
           </div>
           <div class="w-full mt-3">
-            <p class="text-[#333] text-sm py-2">امکانات</p>
+            <p class="text-gold1 text-sm py-2">امکانات</p>
             <div class="flex gap-3 flex-wrap">
               <div
                 v-for="i in Possibilities"
@@ -215,7 +215,7 @@
           </div>
           <div class="w-full flex flex-col lg:flex-row gap-3 mt-3">
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">نام و نام خانوادگی</p>
+              <p class="text-gold1 text-sm py-2">نام و نام خانوادگی</p>
               <input
                 type="text"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -225,7 +225,7 @@
               />
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">شماره تماس 1</p>
+              <p class="text-gold1 text-sm py-2">شماره تماس 1</p>
               <input
                 type="text"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -235,7 +235,7 @@
               />
             </div>
             <div class="w-full lg:w-1/3">
-              <p class="text-[#333] text-sm py-2">شماره تماس 2</p>
+              <p class="text-gold1 text-sm py-2">شماره تماس 2</p>
               <input
                 type="text"
                 class="w-full border border-1 border-gray-500 rounded-lg px-4 py-1"
@@ -248,7 +248,7 @@
           <div class="flex items-center justify-end w-full mt-3">
             <button
             @click="submitForm" 
-              class="border border-1 border-green-600 rounded-lg px-5 py-2 text-[#333] hover:bg-green-600 hover:text-white text-sm"
+              class="border border-1 border-gold1 rounded-lg px-5 py-2 text-gold1 hover:bg-gold1 hover:text-white text-sm"
             >
               ویرایش فایل
             </button>

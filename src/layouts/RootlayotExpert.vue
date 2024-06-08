@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200">
+  <div class="bg-[#29313d]">
     <div class="w-full min-h-[1000px]">
       <div class="w-full">
         <div class="w-[95%] py-10 mx-auto">

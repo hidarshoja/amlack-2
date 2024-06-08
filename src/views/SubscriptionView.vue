@@ -1,16 +1,16 @@
 <template>
-    <div class="w-[90%] min-auto mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl">
-      <div class="bg-white py-24 sm:py-32">
+    <div class="w-[90%] min-auto mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl">
+      <div class=" py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <h3 class="text-2xl py-3 font-semibold text-[#3b3b3b]">خرید اشتراک</h3>
+          <h3 class="text-2xl py-3 font-semibold text-gold1">خرید اشتراک</h3>
           <div class="flex items-center w-full flex-col md:flex-row gap-3">
             <input type="text" placeholder="کدتخفیف" class="border border-gray-400 rounded-md py-1 px-3 outline-none ">
-            <button class="bg-indigo-500  px-2 py-1 mr-2 rounded-md border border-gray-600 hover:bg-indigo-200 hover:text-gray-600 text-white">اعمال کد</button>
+            <button class="bg-gold1  px-2 py-1 mr-2 rounded-md border border-gray-600 hover:bg-indigo-200 hover:text-gray-600 text-white">اعمال کد</button>
           </div>
           <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            <div v-for="tier in tiers" :key="tier.id" :class="[tier.mostPopular ? 'ring-2 ring-indigo-600' : 'ring-1 ring-gray-200', 'rounded-3xl p-8 xl:p-10']">
+            <div v-for="tier in tiers" :key="tier.id" :class="[tier.mostPopular ? 'ring-2 bg-gold1' : 'ring-1 bg-white', 'rounded-3xl p-8 xl:p-10']">
               <div class="flex items-center justify-between gap-x-4">
-                <h3 :id="tier.id" :class="[tier.mostPopular ? 'text-indigo-600' : 'text-gray-900', 'text-lg font-semibold leading-8']">{{ tier.name }}</h3>
+                <h3 :id="tier.id" :class="[tier.mostPopular ? 'text-white' : 'text-gold1', 'text-lg font-semibold leading-8']">{{ tier.name }}</h3>
                 <p v-if="tier.mostPopular" class="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-indigo-600">بسته پیشنهادی</p>
               </div>
               <p class="mt-4 text-sm leading-6 text-gray-600">{{ tier.description }}</p>
@@ -35,7 +35,7 @@
         </div>
         <div class="px-3 overflow-x-auto">
           <table class="min-w-full">
-            <thead class="bg-green-950">
+            <thead class="bg-gold1">
               <tr>
                 <th scope="col" class="py-8 pr-2 text-center text-sm font-semibold text-gray-100">نام بسته </th>
                 <th scope="col" class="px-8 text-center text-sm font-semibold text-gray-100">به ارزش (تومان)</th>

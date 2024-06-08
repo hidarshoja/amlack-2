@@ -1,15 +1,15 @@
 <template>
     <div
-      class="w-[90%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+      class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
     >
       <div class="flex items-center justify-between">
         <h3 class="flex gap-1 items-center">
-          <span class="text-[#333] font-semibold"> جزییات فایل </span>
-          <span class="text-[#333] font-semibold">⟵</span>
+          <span class="text-gold1 font-semibold"> جزییات فایل </span>
+          <span class="text-gold1 font-semibold">⟵</span>
         </h3>
         <div class="flex items-center gap-3">
           <img
-            src="/img/delete.svg"
+            src="/icons/delete3.png"
             class="w-8 h-8 rounded-full cursor-pointer"
             alt=""
           />
@@ -23,7 +23,7 @@
           <img
             v-if="showFirstBookmark"
             @click="toggleBookmarks"
-            src="/img/bookmark.svg"
+            src="/icons/bookmark1.png"
             class="w-8 h-8 rounded-full cursor-pointer"
             alt=""
           />
@@ -33,14 +33,14 @@
         <Carousel />
       </div>
       <div class="w-full flex flex-col lg:flex-row mt-10 gap-2">
-        <div class="w-full lg:w-2/3 py-5 px-3 bg-slate-100 rounded-lg">
+        <div class="w-full lg:w-2/3 py-5 px-3 bg-gold1 rounded-lg">
           <div class="flex flex-col gap-3 py-6">
             <h3 class="text-[#2b2b2b] text-xl">مغازه در فردوسی پل منطقه</h3>
             <h6 class="text-[#2b2b2b] text-sm">
               ساعاتی پیش، خراسان شمالی، بجنورد، فردوسی پل منطقه
             </h6>
           </div>
-          <div class="w-full h-[1px] bg-gray-400"></div>
+          <div class="w-full h-[1px] bg-gold1"></div>
           <div class="flex flex-col gap-3 py-10">
             <div
               class="flex flex-col md:flex-row w-full items-center justify-between gap-3 lg:gap-10"
@@ -100,10 +100,10 @@
             >
               گفتگو با مالک
             </router-link>
-          <div class="w-full py-3 text-sm border rounded-lg bg-slate-100 px-2">
+          <div class="w-full py-3 text-sm border rounded-lg bg-gold1 px-2">
             شناسه آگهی: ۴۴۰۱۶۰۵۹۹
           </div>
-          <div class="w-full py-3 border rounded-lg bg-slate-100 px-2">
+          <div class="w-full py-3 border rounded-lg bg-gold1 px-2">
             <h3 class="text-base">امکانات</h3>
             <div
               class="mt-6 flex flex-wrap gap-x-6 gap-y-3 items-center justify-between"
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div
-            class="w-full py-3 border rounded-lg bg-slate-100 px-2 flex items-center justify-between flex-col gap-4 h-[300px]"
+            class="w-full py-3 border rounded-lg bg-gold1 px-2 flex items-center justify-between flex-col gap-4 h-[300px]"
           >
             <img src="/img/sorena.png" class="w-12 h-12 rounded-full" alt="" />
             <p>کاربر سورنا</p>

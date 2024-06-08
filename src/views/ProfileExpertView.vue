@@ -1,10 +1,10 @@
 <template>
   <div
-    class="w-[90%] min-h-[1000px] mx-auto bg-gray-300 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+    class="w-[90%] min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
   >
     <h3 class="flex gap-1 items-center">
-      <span class="text-[#333] font-semibold"> پرفایل متخصص</span>
-      <span class="text-[#333] font-semibold">⟵</span>
+      <span class="text-gold1 font-semibold"> پرفایل متخصص</span>
+      <span class="text-gold1 font-semibold">⟵</span>
     </h3>
     <div class="flex items-center justify-center w-full h-16">
       <label for="profileImageInput">
@@ -60,7 +60,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="name"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
               نام و نام خانوادگی
             </label>
@@ -77,7 +77,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="family"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
               کد ملی
             </label>
@@ -96,7 +96,7 @@
           <div class="w-full md:w-1/2">
             <label
               for="city"
-              class="block text-sm font-medium leading-6 text-gray-900"
+              class="block text-sm font-medium leading-6 text-gold1"
             >
               شهر
             </label>
@@ -118,7 +118,7 @@
           <div class="w-full md:w-1/2">
             <label
               for="province"
-              class="block text-sm font-medium leading-6 text-gray-900"
+              class="block text-sm font-medium leading-6 text-gold1"
             >
               استان
             </label>
@@ -142,7 +142,7 @@
           <div className="w-full">
             <label
               htmlFor="aboutManager"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
               توضیح مختصر
             </label>
@@ -173,7 +173,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="name"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
               تخصص
             </label>
@@ -190,7 +190,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="family"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
               مدت سابقه (به سال ) 
             </label>
@@ -209,7 +209,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="managerName"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
                آدرس دقیق محل سکونت
             </label>
@@ -226,7 +226,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="address"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
                شماره تماس
             </label>
@@ -245,7 +245,7 @@
           <div className="w-full">
             <label
               htmlFor="aboutManager"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
                سوابق شغلی (حداکثر 5 مورد)
             </label>
@@ -298,7 +298,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="name"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
               پسورد
             </label>
@@ -315,7 +315,7 @@
           <div className="w-full md:w-1/2">
             <label
               htmlFor="family"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gold1"
             >
               تکرار پسورد
             </label>
