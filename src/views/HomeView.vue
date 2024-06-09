@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="w-[90%]  min-h-[1000px] mx-auto bg-bg1 shadow-lg py-10 px-3 lg:px-28 rounded-xl"
+      class="w-[90%]  min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
     >
     
       <div

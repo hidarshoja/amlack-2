@@ -12,7 +12,7 @@
         </div>
         <div class="flex items-center gap-4">
           <div
-            class="w-10 h-10 p-2 border border-1 border-gray-400 bg-gold1 rounded-full relative"
+            class="w-10 h-10 p-2 border border-1 border-gray-400 custom-gradient-bg rounded-full relative"
           >
             <span
               class="absolute bg-red-400 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-5px] left-6"
@@ -29,7 +29,7 @@
          
           <div class="relative">
             <div
-              class="w-10 h-10 p-2 border border-1 border-gray-400 bg-gold1 rounded-full"
+              class="w-10 h-10 p-2 border border-1 border-gray-400 custom-gradient-bg rounded-full"
               @click="toggleSubMenu"
             >
               <img
