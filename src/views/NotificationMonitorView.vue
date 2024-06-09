@@ -39,7 +39,7 @@
       <div
         v-for="(notification, index) in notifications"
         :key="index"
-        class="w-full h-28 flex items-center justify-between bg-gold1 text-white rounded-lg border-r-[8px] border-green-400 py-2 px-4 mt-5"
+        class="w-full h-28 flex items-center justify-between custom-gradient-bg1 text-white rounded-lg border-r-[8px] border-green-400 py-2 px-4 mt-5"
       >
         <div class="flex gap-3 items-center cursor-pointer">
           <div class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">

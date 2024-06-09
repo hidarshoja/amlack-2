@@ -1,11 +1,11 @@
 <template>
   <div class="w-full h-28 text-center fixed bottom-20 lg:bottom-2 z-10">
     <div
-      class="flex flex-col lg:flex-row items-center justify-center lg:justify-between relative w-[90%]  mx-auto bg-gold3 shadow-xl py-2 px-3 rounded-xl border border-[#5909B5]"
+      class="flex flex-col lg:flex-row items-center justify-center lg:justify-between relative w-[90%]  mx-auto custom-gradient-bg shadow-xl py-2 px-3 rounded-xl border border-[#5909B5]"
     >
 
       <div
-        class="absolute top-[-25px] left-1/2 transform -translate-x-1/2 bg-gold6 w-12 h-12 p-1 rounded-full cursor-pointer border border-[#5909B5]"
+        class="absolute top-[-25px] left-1/2 transform -translate-x-1/2 custom-gradient-bg4 w-12 h-12 p-1 rounded-full cursor-pointer border border-[#5909B5]"
       >
          <router-link to="/">
           <span class="inline-block p-1 rounded-full">

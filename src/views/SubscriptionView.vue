@@ -8,7 +8,7 @@
             <button class="bg-gold1  px-2 py-1 mr-2 rounded-md border border-gray-600 hover:bg-indigo-200 hover:text-gray-600 text-white">اعمال کد</button>
           </div>
           <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            <div v-for="tier in tiers" :key="tier.id" :class="[tier.mostPopular ? 'ring-2 bg-gold1' : 'ring-1 bg-white', 'rounded-3xl p-8 xl:p-10']">
+            <div v-for="tier in tiers" :key="tier.id" :class="[tier.mostPopular ? 'ring-2 custom-gradient-bg' : 'ring-1 bg-white', 'rounded-3xl p-8 xl:p-10']">
               <div class="flex items-center justify-between gap-x-4">
                 <h3 :id="tier.id" :class="[tier.mostPopular ? 'text-white' : 'text-gold1', 'text-lg font-semibold leading-8']">{{ tier.name }}</h3>
                 <p v-if="tier.mostPopular" class="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-indigo-600">بسته پیشنهادی</p>

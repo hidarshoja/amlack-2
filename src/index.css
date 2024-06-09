@@ -5,11 +5,27 @@
 
 @layer utilities {
     .custom-gradient-bg {
-      background: linear-gradient(100deg, #c9ab33 10%, #f3e9ca 20%, #AF8824 50%, #fff6d7 75%, #7D5C14 100%);
+      background: linear-gradient(10deg, #c9ab33 8%, #f3e9ca 15%,#AF8824 23%, #AF8824 75%, #f5f4f3 85%, #c9ab33 90%);
+    }
+    .custom-gradient-bg1 {
+      background: linear-gradient(20deg, #c9ab33 25%, #f3e9ca 35%,#AF8824 43%, #AF8824 55%, #f5f4f3 65%, #c9ab33 70%);
     }
     .custom-gradient-bg2 {
       background: linear-gradient(100deg, #29313d 18%, #6880a5 25%, #29313d 50%, #819fca 75%, #29313d 100%);
     }
+    .custom-gradient-bg3 {
+      background: linear-gradient(130deg, #c9ab33 8%, #c0b89f 18%, #AF8824 50%, #e7e4d9 85%, #7D5C14 100%);
+    }
+    .custom-gradient-bg4 {
+      background: linear-gradient(100deg, #c9ab33 10%, #f3e9ca 20%, #AF8824 50%, #fff6d7 75%, #7D5C14 100%);
+    }
+    .text-gradient {
+      background: linear-gradient(90deg, #c9ab33 10%, #f3e9ca 20%, #AF8824 50%, #dfdbce 75%, #7D5C14 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+ 
+ 
   }
 
 

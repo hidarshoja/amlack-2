@@ -5,14 +5,14 @@
             <img src="/img/sorena.png" class="w-[30px]" alt="" />
           </div>
           <div>
-            <span class="text-gold1 text-xl font-semibold"
+            <span class="text-gradient text-xl font-semibold"
               >املاک سورنا</span
             >
           </div>
         </div>
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-4 ">
           <div
-            class="w-10 h-10 p-2 border border-1 border-gray-400 bg-white rounded-full relative"
+            class="w-10 h-10 p-2 border border-1 border-gray-400 custom-gradient-bg4 rounded-full relative"
           >
             <span
               class="absolute bg-red-400 text-[12px] text-white w-5 h-5 rounded-full flex items-center justify-center top-[-5px] left-6"
@@ -29,7 +29,7 @@
          
           <div class="relative">
             <div
-              class="w-10 h-10 p-2 border border-1 border-gray-400 bg-white rounded-full"
+              class="w-10 h-10 p-2 border border-1 border-gray-400 custom-gradient-bg4  rounded-full"
               @click="toggleSubMenu"
             >
               <img

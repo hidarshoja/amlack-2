@@ -1,4 +1,5 @@
 <template>
+  
   <div>
     <div
       class="w-[90%]  min-h-[1000px] mx-auto  shadow-lg py-10 px-3 lg:px-28 rounded-xl"
@@ -8,14 +9,14 @@
        
         class="w-full mt-8 h-24 custom-gradient-bg rounded-lg border-r-[10px] border-green-700 flex items-center justify-between px-3   hover:bg-gold2"
       >
-        <div class="flex gap-3 items-center">
+        <div class="flex gap-3 items-center w-full justify-center">
           <router-link to="/AccountView" class="flex gap-3">
 
             <div class="w-14 h-14 rounded-full flex items-center justify-center">
               <img src="/icons/package.svg" class="w-10" alt="" />
             </div>
             <div class="border-r-2 px-4">
-              <span class="text-white text-sm">
+              <span class="text-white text-sm font-bold">
                 7 روز مانده از 7 روز <br />
                 از بسته خریداری شده شما
               </span>
@@ -26,7 +27,7 @@
       <div class="mt-8">
         <div class="flex flex-col md:flex-row gap-3">
           <div
-            class="w-full md:w-1/2 h-16 bg-gold2 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
+            class="w-full md:w-1/2 h-16 custom-gradient-bg flex items-center justify-center rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
             <div class="flex gap-3 items-center relative cursor-pointer">
               <router-link to="/filing" class="flex items-center gap-2">
@@ -46,7 +47,7 @@
             </div>
           </div>
           <div
-          class="w-full md:w-1/2 h-16  bg-gold1 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
+          class="w-full md:w-1/2 h-16  custom-gradient-bg flex items-center justify-center rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
             <div class="flex gap-3 items-center relative cursor-pointer">
               <router-link to="/FavoritesView" class="flex items-center gap-2">
@@ -71,7 +72,7 @@
       <div class="mt-4">
         <div class="flex flex-col md:flex-row gap-3">
           <div
-          class="w-full md:w-1/2 h-16 bg-gold1 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
+          class="w-full md:w-1/2 h-16 custom-gradient-bg flex items-center justify-center rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
             <div class="flex gap-3 items-center relative cursor-pointer">
               <router-link to="/ApplicantsView" class="flex items-center gap-2">
@@ -91,9 +92,9 @@
             </div>
           </div>
           <div
-          class="w-full md:w-1/2 h-16 bg-gold1 rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
+          class="w-full md:w-1/2 h-16 custom-gradient-bg flex items-center justify-center rounded-lg  py-2 px-4 border-r-[10px] border-green-700 "
           >
-            <div class="flex gap-3 items-center relative cursor-pointer">
+            <div class="flex gap-3 items-center relative cursor-pointer ">
               <router-link to="/CustomersView" class="flex items-center gap-2">
 
                 <div
@@ -113,7 +114,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-5 flex w-full p-4 bg-gold1 rounded-lg border-r-[10px] border-green-700 ">
+      <div class="mt-5 flex w-full p-4 custom-gradient-bg rounded-lg border-r-[10px] border-green-700 ">
         <div class="flex flex-col lg:flex-row w-full items-start gap-4 justify-between">
           <input type="text" placeholder="جستجو در تمام آگهی ها " class="py-3 px-4 w-full lg:w-3/6 text-sm text-[#333232] rounded-lg outline-none">
          <div class="flex items-center w-full lg:w-3/6 gap-2 justify-between">
@@ -153,13 +154,13 @@
       </div>
       <div class="flex items-center justify-end mt-5 py-5">
         <button
-          class="border bg-gold1 py-1.5 px-6 rounded-lg hover:bg-gold2 hover:text-white"
+          class="border custom-gradient-bg4 py-1.5 px-6 rounded-lg hover:bg-gold2 hover:text-white"
         >
           مشاهده همه
         </button>
       </div>
       <div
-        class="w-full bg-gold1 shadow-lg mt-8 h-24 rounded-lg flex items-center py-2 px-4 border-r-[10px] border-green-700 "
+        class="w-full custom-gradient-bg shadow-lg mt-8 h-24 rounded-lg flex items-center py-2 px-4 border-r-[10px] border-green-700 "
       >
         <div class="flex gap-3 items-center">
           <router-link to="/SupportView" class="flex gap-3 items-center">

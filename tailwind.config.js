@@ -20,6 +20,7 @@ export default {
         "text2" :"#ffcf9d",
         "hover1" :"#ffcf9d",
         "hover2" :"#ffcf9d",
+     
       }
     },
   },
