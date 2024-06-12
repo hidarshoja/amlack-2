@@ -5,26 +5,30 @@
 
 @layer utilities {
     .custom-gradient-bg {
-      background: linear-gradient(10deg, #c9ab33 8%, #f3e9ca 15%,#AF8824 23%, #AF8824 75%, #f5f4f3 85%, #c9ab33 90%);
+      background: linear-gradient(10deg, #d3b964 8%, #f3e9ca 15%,#d3b964 23%, #d3b964 75%, #f5f4f3 85%, #d3b964 90%);
     }
     .custom-gradient-bg1 {
-      background: linear-gradient(20deg, #c9ab33 25%, #f3e9ca 35%,#AF8824 43%, #AF8824 55%, #f5f4f3 65%, #c9ab33 70%);
+      background: linear-gradient(20deg, #d3b964 25%, #f3e9ca 35%,#d3b964 43%, #d3b964 55%, #f5f4f3 65%, #d3b964 70%);
     }
     .custom-gradient-bg2 {
       background: linear-gradient(100deg, #29313d 18%, #6880a5 25%, #29313d 50%, #819fca 75%, #29313d 100%);
     }
     .custom-gradient-bg3 {
-      background: linear-gradient(130deg, #c9ab33 8%, #c0b89f 18%, #AF8824 50%, #e7e4d9 85%, #7D5C14 100%);
+      background: linear-gradient(130deg, #d3b964 8%, #e9e7e3 15%, #d3b964 23%, #d3b964 75%, #e9e7e0 85%, #d3b964 90%);
     }
     .custom-gradient-bg4 {
-      background: linear-gradient(100deg, #c9ab33 10%, #f3e9ca 20%, #AF8824 50%, #fff6d7 75%, #7D5C14 100%);
+      background: linear-gradient(100deg, #d3b964 10%, #f3e9ca 20%, #d3b964 50%, #fff6d7 75%, #d3b964 100%);
     }
     .text-gradient {
-      background: linear-gradient(90deg, #c9ab33 10%, #f3e9ca 20%, #AF8824 50%, #dfdbce 75%, #7D5C14 100%);
+      background: linear-gradient(90deg, #d3b964 10%, #f3e9ca 20%, #d3b964 50%, #dfdbce 75%, #d3b964 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
- 
+    .text-gradient2 {
+      background: linear-gradient(90deg, #5909B5 10%, #e94d62 20%, #5909B5 50%, #e94d62 75%, #5909B5 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
  
   }
 

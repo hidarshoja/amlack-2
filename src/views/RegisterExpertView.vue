@@ -20,7 +20,7 @@
                 ثبت نام به عنوان متخصص
               </h2>
               <router-link 
-              className="flex cursor-pointer justify-center rounded-md  px-3   text-sm font-semibold leading-6 border-2 border-gray-700 text-white bg-gold1 shadow-sm"
+              className="flex w-12 h-8 cursor-pointer justify-center rounded-md  px-3   text-sm font-semibold leading-6 border-2 border-gray-700 text-white bg-gold1 shadow-sm"
               to="/expert"
               >
               <img src="/img/back.png" class="w-8 h-auto" alt="back">

@@ -51,30 +51,30 @@
             >
               <div className="w-[1px] h-[230px] bg-gray-400 absolute left-1/2 translate-x-[-50%]"></div>
               <div className="w-full flex items-center justify-around   py-2">
-                <div className="text-[12px] font-semibold ">عنوان </div>
-                <div className="text-[10px]"> {{ person.title }}</div>
+                <div className="text-[12px] font-semibold  w-1/2 flex items-center justify-center">عنوان </div>
+                <div className="text-[10px] w-1/2 flex items-center justify-center"> {{ person.title }}</div>
               </div>
               <div className="w-full flex items-center justify-around border-t border-gray-400 py-2">
-                <div  className="text-[12px] font-semibold">مبلغ</div>
-                <div className="text-[10px]"> {{ person.price }}</div>
+                <div  className="text-[12px] font-semibold w-1/2 flex items-center justify-center">مبلغ</div>
+                <div className="text-[10px] w-1/2 flex items-center justify-center"> {{ person.price }}</div>
               </div>
               <div className="w-full flex items-center justify-around border-t border-gray-400 py-2">
-                <div className="text-[12px] font-semibold">مبلغ تخفیف</div>
-                <div className="text-[10px]">{{ person.price2 }}</div>
+                <div className="text-[12px] font-semibold w-1/2 flex items-center justify-center">مبلغ تخفیف</div>
+                <div className="text-[10px] w-1/2 flex items-center justify-center">{{ person.price2 }}</div>
               </div>
               <div className="w-full flex items-center justify-around border-t border-gray-400 py-2">
-                <div  className="text-[12px] font-semibold">تاریخ</div>
-                <div className="text-[10px]"> 
+                <div  className="text-[12px] font-semibold w-1/2 flex items-center justify-center">تاریخ</div>
+                <div className="text-[10px] w-1/2 flex items-center justify-center"> 
                    {{ person.price }}
                 </div>
               </div>
               <div className="w-full flex items-center justify-around border-t border-gray-400 py-2">
-                <div className="text-[12px] font-semibold">کدرهگیری</div>
-                <div className="text-[10px]">{{ person.state }}</div>
+                <div className="text-[12px] font-semibold w-1/2 flex items-center justify-center">کدرهگیری</div>
+                <div className="text-[10px] w-1/2 flex items-center justify-center">{{ person.state }}</div>
               </div>
               <div className="w-full flex items-center justify-around border-t border-gray-400 py-2">
-                <div  className="text-[12px] font-semibold">وضعیت</div>
-                <div className="text-[10px]"> مشاهده</div>
+                <div  className="text-[12px] font-semibold w-1/2 flex items-center justify-center">وضعیت</div>
+                <div className="text-[10px] w-1/2 flex items-center justify-center"> مشاهده</div>
               </div>
            
             </div>

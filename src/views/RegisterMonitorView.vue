@@ -19,7 +19,7 @@
         <div className="mx-auto w-[95%] md:w-[80%]">
           <div class="flex items-center justify-between">
             <router-link
-              className="flex cursor-pointer justify-center rounded-md  px-3   text-sm font-semibold leading-6 border-2 border-gray-700 bg-gold1 text-white shadow-sm"
+              className="flex w-12 h-8 cursor-pointer justify-center rounded-md  px-3   text-sm font-semibold leading-6 border-2 border-gray-700 bg-gold1 text-white shadow-sm"
               to="/expert"
             >
               <img src="/img/back.png" class="w-8 h-auto" alt="back" />
